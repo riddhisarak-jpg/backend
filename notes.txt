@@ -1,0 +1,18 @@
+Following things that you learnt:
+I.use express,app.get //call back function added for req,res
+,app.listen,
+deployed on server-render by pushing it into github
+II.connecting frontend with backend:-
+added usestate in frontend:-//state to store data from backend
+various ways like fetching..
+but here we used axios to fetch data from backend:req,res.error in frontend:-
+problems occur:CORS--lot of request from lot of servers,allow them as per your wish
+:-
+ways to solve whitelisting in backend, add proxy
+we used proxy(how to add it depend on bundlers of choice(vite,createapp,parcel))
+bad practice:- adding dist from frontent into backend
+in backend add middleware to use this dist :-app.use(express.static ('dist'))
+npm run build is used to get dist ---in frontend 
+moon modeler
+eraser.io
+stackblitz --for data modeling
